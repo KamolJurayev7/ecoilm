@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* background-image: url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8='); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  font-family: sans-serif;
+}
+.container{
+  width: 92.5%;
+  margin: 0 auto;
+}
+.d_flex{
+  display: flex;
+}
