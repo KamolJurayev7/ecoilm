@@ -45,7 +45,7 @@ export default function Root() {
               Ko'proq yangiliklar
             </button>
           </div>
-          {/* <div className="grid grid-cols-7 gap-10">
+          <div className="grid grid-cols-7 gap-10">
             <div className="col-span-3 shadow-lg justify-around">
                 <img className=" rounded-lg mt-3 mb-4" src="./assets/img/photo_2024-02-29_11-44-46.jpg" alt="" />
                 <p>Atrof-muhit va tabiatni muhofaza qilish texnologiyalari ilmiy-tadqiqot institutida Germaniya xalqaro hamkorlik jamiyati (GIZ)ning O‘zbekistondagi vakolatxonasi xodimlari bilan uchrashuv o‘tkazildi.</p>
@@ -114,7 +114,7 @@ export default function Root() {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="about_section mt-[30px] px-3 py-2  bg-slate-500/70 rounded-xl">
           <p className="text-blue-900 text-center text-3xl font-bold">
