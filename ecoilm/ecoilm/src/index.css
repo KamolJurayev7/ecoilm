@@ -16,3 +16,16 @@ body{
 .d_flex{
   display: flex;
 }
+.people_scroll::-webkit-scrollbar {
+  width: 20px;
+}
+
+.people_scroll ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.people_scroll ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+

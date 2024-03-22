@@ -37,89 +37,112 @@ export default function Root() {
           Ekologiya, Atrof-muhit muhofazasi va iqlim o'zgarishi yo'nalishida{" "}
           <br /> olib borilayotgan ilmiy tadqiqotlar
         </h3>
-        <div className="yangiliklar mt-5">
+        <div className="yangiliklar bg-slate-500/30 py-5 px-10 rounded-xl mt-5">
           <div className="d_flex">
-            <p className=" text-xl">Yangiliklar</p>
-            <button className="bg-lime-700 text-white px-[10px] py-[5px] rounded-md ms-[920px]">
+            <p className=" text-xl text-black">Yangiliklar</p>
+            <button className="bg-lime-700 text-white px-[10px] py-[5px] rounded-md ms-[820px]">
               Ko'proq yangiliklar
             </button>
           </div>
           <div className="grid grid-cols-7 gap-10">
-            <div className="col-span-3">
-                <img className=" rounded-lg mt-3 mb-4" src="./assets/img/photo_2024-02-29_11-44-46.jpg" alt="" />
-                <p>Atrof-muhit va tabiatni muhofaza qilish texnologiyalari ilmiy-tadqiqot institutida Germaniya xalqaro hamkorlik jamiyati (GIZ)ning O‘zbekistondagi vakolatxonasi xodimlari bilan uchrashuv o‘tkazildi.</p>
-                <Link className="text-black text-lg bg-lime-700 mt-3 px-2 py-1 rounded-md  ms-[400px]">
+            <div className="col-span-3 bg-white pb-10 rounded-2xl">
+              <img
+                className=" w-[445px] h-[270px] rounded-lg mb-4"
+                src="./assets/img/photo_2024-02-29_11-44-46.jpg"
+                alt=""
+              />
+              <p className="px-2 py-1">
+                Atrof-muhit va tabiatni muhofaza qilish texnologiyalari
+                ilmiy-tadqiqot institutida Germaniya xalqaro hamkorlik jamiyati
+                (GIZ)ning O‘zbekistondagi vakolatxonasi xodimlari bilan
+                uchrashuv o‘tkazildi.
+              </p>
+              <p className="text-sm px-2 pb-3">
+                Muloqot jarayonida GIZ tomonidan moliyalashtirilgan va 2023 yil
+                sentyabridan 2024 yil iyunigacha mo‘ljallangan “Orolbo‘yi
+                mintaqasida ekologik yo‘naltirilgan mintaqaviy rivojlanish
+                (EKO-OROL)” loyihasi doirasida bajarilgan ishlar muhokama
+                qilindi. Uchrashuvda avstriyalik xalqaro ekspert Shfetan
+                Klingenberg va Atrof-muhit va tabiatni muhofaza qilish
+                texnologiyalari ilmiy-tadqiqot instituti ilmiy xodimlari
+                Orolbo‘yi mintaqasida ekologik xavfni aniqlash maqsadida
+                olimlar, mutaxassislar va fermerlar ishtirokida o‘tkazilgan
+                so‘rovnoma natijalarini tahlil qilish metodlari va ulardan
+                foydalanish usulllari haqida so‘z yuritishdi
+              </p>
+              <Link className="text-black text-lg hover:text-white bg-lime-700 mt-3 px-2 py-1 rounded-md  ms-[360px]">
                 <ins>Batafsil</ins>
               </Link>
             </div>
             <div className="col-span-4">
-              <div className="grid grid-cols-4 mt-3 gap-10">
-                <div className="col-span-2 ">
-                <img
-                className="rounded-lg"
-                src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 1.png"
-                alt=""
-              />
-              <p className="text-black  text-lg text-center">
-                TXTY-2023: O‘zbekiston va Markaziy Osiyo mintaqasining yirik
-                turizm tadbirida ishtirok eting
-              </p>
-              <Link className="text-black text-lg bg-lime-700 px-2 py-1 rounded-md  ms-[224px]">
-                <ins>Batafsil</ins>
-              </Link>
+              <div className="grid grid-cols-4 mt-5 gap-10">
+                <div className="col-span-2 pb-3 bg-white rounded-xl ">
+                  <img
+                    className="rounded-lg"
+                    src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 1.png"
+                    alt=""
+                  />
+                  <p className="text-black pb-3  pt-4 text-center">
+                    TXTY-2023: O‘zbekiston va Markaziy Osiyo mintaqasining yirik
+                    turizm tadbirida ishtirok eting
+                  </p>
+                  <Link className="text-black text-lg hover:text-white bg-lime-700 mb-4 px-2 py-1 rounded-md   ms-[200px]">
+                    <ins>Batafsil</ins>
+                  </Link>
                 </div>
-                <div className="col-span-2 ">
-                <img
-                className="rounded-lg"
-                src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 2.png"
-                alt=""
-              />
-              <p className="text-black  text-lg text-center">
-              Samarqandda “Yashil shahar” harakat rejasini ishlab chiqishga
-                qaratilgan trening o‘tkazildi
-              </p>
-              <Link className="text-black text-lg bg-lime-700 px-2 py-1 rounded-md  ms-[224px]">
-                <ins>Batafsil</ins>
-              </Link>
+                <div className="col-span-2 pb-3 bg-white rounded-xl ">
+                  <img
+                    className="rounded-lg"
+                    src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 2.png"
+                    alt=""
+                  />
+                  <p className="text-black mt-4 mb-3 text-center">
+                    Samarqandda “Yashil shahar” harakat rejasini ishlab
+                    chiqishga qaratilgan trening o‘tkazildi
+                  </p>
+                  <Link className="text-black text-lg hover:text-white bg-lime-700 px-2 py-1 rounded-md  ms-[200px]">
+                    <ins>Batafsil</ins>
+                  </Link>
                 </div>
               </div>
-              <div className="grid grid-cols-4 mt-3 gap-10">
-                <div className="col-span-2  ">
-                <img
-                className="rounded-lg"
-                src="./assets/img/Group 104.png"
-                alt=""
-              />
-              <p className="text-black  text-lg text-center">
-              Bolajonlarga ekologiyaga oid brayl alifbosidagi kitoblar sovg‘a
-                qilindi
-              </p>
-              <Link className="text-black text-lg bg-lime-700 px-2 py-1 rounded-md  ms-[224px]">
-                <ins>Batafsil</ins>
-              </Link>
+              <div className="grid grid-cols-4 mt-14 gap-10">
+                <div className="col-span-2 pb-3 bg-white rounded-xl  ">
+                  <img
+                    className="rounded-lg"
+                    src="./assets/img/Group 104.png"
+                    alt=""
+                  />
+                  <p className="text-black mt-3 pb-4 text-center">
+                    Bolajonlarga ekologiyaga oid brayl alifbosidagi kitoblar
+                    sovg‘a qilindi
+                  </p>
+                  <Link className="text-black text-lg hover:text-white bg-lime-700 px-2 py-1 rounded-md  ms-[200px]">
+                    <ins>Batafsil</ins>
+                  </Link>
                 </div>
-                <div className="col-span-2 ">
-                <img
-                className="rounded-lg"
-                src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 2 (1).png"
-                alt=""
-              />
-              <p className="text-black  text-lg text-center">
-              Shavkat Mirziyoyev kuzgi daraxt ekish mavsumini boshlab berdi
-              </p>
-              <Link className="text-black text-lg bg-lime-700 px-2 py-1 rounded-md  ms-[224px]">
-                <ins>Batafsil</ins>
-              </Link>
+                <div className="col-span-2 pb-3 bg-white rounded-xl ">
+                  <img
+                    className="rounded-lg"
+                    src="./assets/img/photo_2023-08-16_13-16-11-Xr23bArNs-transformed (1) 2 (1).png"
+                    alt=""
+                  />
+                  <p className="text-black mt-3 mb-4 text-center">
+                    Shavkat Mirziyoyev kuzgi daraxt ekish mavsumini boshlab
+                    berdi
+                  </p>
+                  <Link className="text-black text-lg hover:text-white bg-lime-700 px-2 py-1 rounded-md  ms-[200px]">
+                    <ins>Batafsil</ins>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="about_section mt-[30px] px-3 py-2  bg-slate-500/70 rounded-xl">
+        <div className="about_section mt-[30px] px-3 py-2  bg-slate-500/30 rounded-xl">
           <p className="text-blue-900 text-center text-3xl font-bold">
             Biz haqimizda
           </p>
-          <p className="text-white text-xl text-center font-semibold">
+          <p className="text-black text-xl text-center font-semibold">
             Atrof muhit va atbiatni muhofaza qilish texnologiyalari ilmiy
             tadqiqot instituti haqida qisqacha ma'lumot
           </p>
@@ -136,7 +159,7 @@ export default function Root() {
                 Atrof muhit va atbiatni muhofaza qilish texnologiyalari ilmiy
                 tadqiqot instituti haqida
               </p>
-              <p className="text-white text-sm">
+              <p className="text-black text-sm">
                 Toshkent suv ta’minoti, kanalizatsiya, gidrotexnika inshootlari
                 va muhandislik gidrogeologiyasi (ToshNII "VODGEO") instituti,
                 1960 yilda Markaziy Osiyo arxitektura va qurilish ilmiy-tadqiqot
@@ -220,35 +243,35 @@ export default function Root() {
             <p className="text-center mt-2">Chiqindilarni qayta ishlash </p>
           </div>
         </div>
-        <div className="Section_second bg-slate-500/50 px-10 pt-5 mt-3 rounded-xl">
+        <div className="Section_second bg-slate-500/30 px-10 pt-5 mt-3 rounded-xl">
           <div className="d_flex mb-2">
-            <p className="text-white ms-3 text-2xl ">Loyihalar</p>
+            <p className="text-black ms-3 text-2xl ">Loyihalar</p>
             <button className="bg-lime-700 text-white px-[10px] py-[5px] rounded-md ms-[850px]">
               Batafsil ko'rish
             </button>
           </div>
-          <div className="grid grid-cols-12">
+          <div className="grid gap-8 grid-cols-12">
             <div className="col-span-3">
-              <img src="./assets/img/Rectangle 3.png" alt="" />
-              <p className="text-white text-center font-bold text-lg">
+              <img className="hover:w-[244px]" src="./assets/img/Rectangle 3.png" alt="" />
+              <p className="text-black text-center hover:text-slate-700 font-bold text-lg">
                 Bioxilmaxillikni saqlash
               </p>
             </div>
             <div className="col-span-3">
-              <img src="./assets/img/Rectangle 4.png" alt="" />
-              <p className="text-white text-center font-bold text-lg">
+              <img className="hover:w-[244px]" src="./assets/img/Rectangle 4.png" alt="" />
+              <p className="text-black text-center hover:text-slate-700 font-bold text-lg">
                 Yashil o'sish va iqlim o’zgarishi
               </p>
             </div>
             <div className="col-span-3">
-              <img src="./assets/img/Rectangle 5.png" alt="" />
-              <p className="text-white text-center font-bold text-lg">
+              <img className="hover:w-[244px]" src="./assets/img/Rectangle 5.png" alt="" />
+              <p className="text-black text-center hover:text-slate-700 font-bold text-lg">
                 Atmosfera havosini muhofaza qilish
               </p>
             </div>
             <div className="col-span-3">
-              <img src="./assets/img/Rectangle 6.png" alt="" />
-              <p className="text-white text-center font-bold text-lg">
+              <img className="hover:w-[244px]" src="./assets/img/Rectangle 6.png" alt="" />
+              <p className="text-black text-center hover:text-slate-700 font-bold text-lg">
                 Chiqindilarni qayta ishlash va utilizatsiya qilish
               </p>
             </div>
