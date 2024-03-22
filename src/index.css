@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doppio+One&family=Tajawal:wght@200;300;400;500;700;800;900&family=Trade+Winds&display=swap');
+body{
+  /* background-image: url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8='); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  background-color: #eaf3ea;
+}
+.container{
+  width: 92.5%;
+  margin: 0 auto;
+}
+.d_flex{
+  display: flex;
+}
+.dm-sans-kamol {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
